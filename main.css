@@ -28,6 +28,33 @@ nav a {
   margin: 0 15px;
 }
 
+.acerca-de {
+  text-align: center;
+  background-image: url("./Images/ice-cream.png");
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner_acerca-de {
+  background-color: rgba(12, 165, 220, 0.5);
+}
+
+.banner_acerca-de h1 {
+  font-size: xx-large;
+}
+
+.menu {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  gap: 0.9rem;
+}
+
 .productos {
   display: flex;
   flex-wrap: wrap;
@@ -48,6 +75,11 @@ nav a {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+}
+
+.contacto {
+  max-width: 800px;
+  margin: 2rem auto;
 }
 
 footer {
